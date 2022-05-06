@@ -21,4 +21,4 @@ To then build and run the program just run
 dotnet build
 dotnet run
 ```
-In the program you have to enter path to the executable or the program(notepad.exe) and then enter interval length. After the process finishes, results of the measurement are in the file *process.txt* in the project folder.
+In the program you have to enter path to the executable or the program(notepad.exe) and then enter interval length. After the process finishes, results of the measurement are in the file *process.log* in a csv format of **measurement,time_passed,working_set,private_bytes,handle_count,cpu_usage** in the project folder.
